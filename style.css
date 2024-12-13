@@ -1,0 +1,84 @@
+
+:root {
+    
+    --barn-red: #780000ff;
+    --fire-brick: #c1121fff;
+    --papaya-whip: #fdf0d5ff;
+    --prussian-blue: #003049ff;
+    --air-superiority-blue: #669bbcff;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--air-superiority-blue);
+}
+.kontainer {
+    background-color: var(--papaya-whip);
+    width: 1000px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+.lada{ 
+    display: flex;
+    gap: 20px;
+    font-size: -20px;
+}
+.inlägg {
+    background-color: var(--barn-red);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    gap: 15px;
+}
+.inlägg1{
+     background-color: var(--barn-red);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    gap: 15px;
+}
+
+
+h1 {
+   color: cadetblue;
+   text-align: center;
+    
+}
+h2 {
+
+}
+
+
+.imgintresse{
+width: 100%;
+}
+
+.imgintresse2{
+    width: 100%;
+}
+
+.imgintresse3{
+width: 100%;
+}
+
+.datum {
+
+}
+p {
+font-size:20px ;
+color: aliceblue;
+
+}
